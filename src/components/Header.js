@@ -1,46 +1,40 @@
+import React from 'react';
+
 const Header = () => {
   return (
-    <header className='bg-zinc-800 text-white p-5 sticky'>
-      <nav>
-        <ul className='flex gap-5 justify-center'>
+    <header className='bg-zinc-800 text-white p-4 sm:p-6 sticky top-0 z-50'>
+      <nav className='container mx-auto'>
+        <ul className='flex flex-wrap justify-center gap-4'>
           <li>
             <a
-              className='bg-zinc-500 p-2 rounded-md hover:bg-zinc-400 transition'
-              href='#'
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              className='bg-zinc-500 p-2 rounded-md hover:bg-zinc-400 transition'
+              className='nav-link hover:text-slate-300 underline transition'
               href='#about'
             >
-              About
+              Sobre Mim
             </a>
           </li>
           <li>
             <a
-              className='bg-zinc-500 p-2 rounded-md hover:bg-zinc-400 transition'
+              className='nav-link hover:text-slate-300 underline transition'
               href='#projects'
             >
-              Projects
+              Projetos
             </a>
           </li>
           <li>
             <a
-              className='bg-zinc-500 p-2 rounded-md hover:bg-zinc-400 transition'
-              href='#education_work'
+              className='nav-link hover:text-slate-300 underline transition'
+              href='#skills'
             >
-              Education & Work
+              Habilidades
             </a>
           </li>
           <li>
             <a
-              className='bg-zinc-500 p-2 rounded-md hover:bg-zinc-400 transition'
+              className='nav-link hover:text-slate-300 underline transition'
               href='#contact'
             >
-              Contact
+              Contato
             </a>
           </li>
         </ul>
