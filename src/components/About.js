@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id='about'
-      className='flex flex-col md:flex-row justify-evenly items-center gap-4 relative bg-current bg-center bg-cover bg-no-repeat p-10'
+      className='flex flex-col md:flex-row justify-evenly items-center gap-4 relative bg-current bg-center bg-cover bg-no-repeat p-10 border-b border-zinc-400'
       data-aos='fade-up'
       style={{
         backgroundImage: `linear-gradient(70deg, rgba(250, 250, 250, 1), rgba(169, 169, 169, 0.9)), url(${ouroPreto})`,
@@ -36,7 +36,7 @@ const About = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <FaGitlab scale={true} size={25} />
+                <FaGitlab scale={1} size={25} />
               </a>
             </li>
             <li>
@@ -46,7 +46,7 @@ const About = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <FaMastodon scale={true} size={25} />
+                <FaMastodon scale={1} size={25} />
               </a>
             </li>
             <li>
@@ -56,7 +56,7 @@ const About = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <FaLinkedin scale={true} size={25} />
+                <FaLinkedin scale={1} size={25} />
               </a>
             </li>
             <li>
@@ -66,7 +66,7 @@ const About = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <FaReddit scale={true} size={25} />
+                <FaReddit scale={1} size={25} />
               </a>
             </li>
           </ul>

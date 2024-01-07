@@ -8,12 +8,12 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className='flex flex-col min-h-screen bg-zinc-200'>
       <Header />
-      <main className='flex-1'>
-        <About />
-        <Projects />
+      <About />
+      <main className='flex-1 container mx-auto'>
         <Skills />
+        <Projects />
         <Contact />
       </main>
       <Footer />
