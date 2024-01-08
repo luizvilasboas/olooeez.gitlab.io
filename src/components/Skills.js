@@ -41,7 +41,7 @@ const Skills = () => {
               {category.skills.map((skill, skillIndex) => (
                 <li
                   key={skillIndex}
-                  className='bg-zinc-300 py-3 px-5 rounded-xl text-zinc-500'
+                  className='bg-zinc-100 py-3 px-5 rounded-xl'
                 >
                   {skill}
                 </li>
