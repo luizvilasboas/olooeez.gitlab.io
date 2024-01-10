@@ -14,8 +14,8 @@ function App() {
       <main className='flex-1 container mx-auto'>
         <Skills />
         <Projects />
-        <Contact />
       </main>
+      <Contact />
       <Footer />
     </div>
   );
