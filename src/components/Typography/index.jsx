@@ -8,6 +8,8 @@ const Typography = ({ variant, className, children, ...restProps }) => {
         return 'text-3xl font-light';
       case 'p':
         return 'text-lg leading-loose font-light';
+      default:
+        return '';
     }
   };
 
