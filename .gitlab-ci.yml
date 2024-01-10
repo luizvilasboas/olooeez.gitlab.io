@@ -20,7 +20,7 @@ pages:
       - public
   environment:
     name: production
-    url: "https://${NETLIFY_SITE_ID}.netlify.app"
+    url: "https://olooeez.gitlab.io/"
   tags:
     - javascript
   only:
