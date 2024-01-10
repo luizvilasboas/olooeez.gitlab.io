@@ -1,21 +1,21 @@
 import React from 'react';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen bg-zinc-200'>
-      <Header />
+    <div className='flex flex-col min-h-screen bg-backagroundWhite'>
+      <Navbar />
       <About />
       <main className='flex-1 container mx-auto'>
         <Skills />
         <Projects />
       </main>
-      <Contact />
+      <ContactForm />
       <Footer />
     </div>
   );
