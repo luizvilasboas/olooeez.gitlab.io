@@ -1,10 +1,11 @@
 import { skillList } from '../../data/skillList';
 import Typography from '../Typography';
 import Tag from '../Tag';
+import { Element } from 'react-scroll';
 
 const Skills = () => {
   return (
-    <section className='grid md:grid-cols-2 mt-10 md:mt-20 gap-10' id='skills'>
+    <Element className='grid md:grid-cols-2 mt-10 md:mt-20 gap-10' name='skills'>
       <section className='flex flex-col justify-center items-center gap-10'>
         <Typography variant='h1' className='text-textBlack'>
           Habilidades
@@ -35,7 +36,7 @@ const Skills = () => {
           </div>
         ))}
       </section>
-    </section>
+    </Element>
   );
 };
 

@@ -1,18 +1,18 @@
 export const siteSections = [
   {
     name: 'Sobre',
-    href: '#about',
+    href: 'about',
   },
   {
     name: 'Habilidades',
-    href: '#skills',
+    href: 'skills',
   },
   {
     name: 'Projetos',
-    href: '#projects',
+    href: 'projects',
   },
   {
     name: 'Contato',
-    href: '#contact',
+    href: 'contact',
   },
 ];

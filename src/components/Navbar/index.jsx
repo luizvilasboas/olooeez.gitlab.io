@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../Link';
+import { Link } from 'react-scroll';
 import { siteSections } from '../../data/siteSections';
 
 const Navbar = () => {
@@ -9,7 +9,16 @@ const Navbar = () => {
         <ul className='flex flex-wrap justify-center gap-4'>
           {siteSections.map((section, index) => (
             <li key={index}>
-              <Link href={section.href}>{section.name}</Link>
+              <Link
+                className='hover:text-slate-300 underline transition cursor-pointer'
+                to={section.href} 
+                spy={true} 
+                smooth={true} 
+                offset={-100} 
+                duration={500} 
+              >
+                {section.name}
+              </Link>
             </li>
           ))}
         </ul>

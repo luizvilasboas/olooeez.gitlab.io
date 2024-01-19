@@ -4,12 +4,13 @@ import me from '../../assets/img/me.jpg';
 import { socialLinks } from '../../data/socialLinks';
 import Typography from '../Typography';
 import Link from '../Link';
+import { Element } from 'react-scroll';
 
 const About = () => {
   return (
-    <section
-      id='about'
-      className='flex flex-col md:flex-row justify-evenly items-center gap-4 relative bg-current bg-center bg-cover bg-no-repeat p-10 border-b border-zinc-400'
+    <Element
+      name='about'
+      className='element flex flex-col md:flex-row justify-evenly items-center gap-4 relative bg-current bg-center bg-cover bg-no-repeat p-10 border-b border-zinc-400'
       data-aos='fade-up'
       style={{
         backgroundImage: `linear-gradient(70deg, rgba(250, 250, 250, 1), rgba(169, 169, 169, 0.9)), url(${ouroPreto})`,
@@ -48,7 +49,7 @@ const About = () => {
           className='rounded-full border-2 border-black w-32 h-32 md:w-52 md:h-52'
         />
       </div>
-    </section>
+    </Element>
   );
 };
 

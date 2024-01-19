@@ -5,15 +5,17 @@ import { projectList } from '../../data/projectList';
 import Typography from '../Typography';
 import Link from '../Link';
 import Tag from '../Tag';
+import Button from '../Button';
+import { Element } from 'react-scroll';
 
 const Projects = () => {
   return (
-    <>
-      <div className='text-textBlack mt-10 md:mt-20 flex flex-col items-center text-center'>
+    <Element name='projects'>
+      <div className='text-textBlack mt-10 md:mt-20 flex flex-col items-start text-center mx-10'>
         <Typography variant='h1' className='mb-5'>
           Projetos
         </Typography>
-        <Typography variant='p' className='w-auto md:w-2/3 lg:w-2/3 mx-10'>
+        <Typography variant='p' className='w-auto md:w-2/3 lg:w-2/3 text-start'>
           Projetos opensource que eu desenvolvi ao longo do tempo, mostram um
           pouco do meu trabalho na área, abordando diferentes temas e
           tecnologias.
@@ -39,28 +41,35 @@ const Projects = () => {
                 <Link
                   href={project.demoLink}
                   blank={true}
-                  className='flex items-center no-underline hover:text-zinc-600'
+                  className='flex items-center justify-center no-underline hover:text-zinc-600'
                 >
-                  Demonstração <FaLink className='ml-2' />
+                  Demonstração <FaLink className='ml-2' size={15} />
                 </Link>
               )}
               <Link
                 href={project.codeLink}
                 blank={true}
-                className='flex items-center no-underline hover:text-zinc-600'
+                className='flex items-center justify-center no-underline hover:text-zinc-600'
               >
-                Código <FaGitlab className='ml-2' />
+                Código <FaGitlab className='ml-2' size={15} />
               </Link>
             </div>
             <div className='mt-4 flex flex-wrap gap-1'>
               {project.tags.map((tag, index) => (
-                <Tag key={index} className='py-1 px-2 bg-backagroundWhite'>{tag}</Tag>
+                <Tag key={index} className='py-1 px-2 bg-backagroundWhite'>
+                  {tag}
+                </Tag>
               ))}
             </div>
           </div>
         ))}
       </section>
-    </>
+      <div className='w-full flex items-center justify-center  mt-20'>
+        <Button className='max-w-lg' onClick={() => window.open('https://gitlab.com/olooeez', '_blank')}>
+          Mais projetos no meu perfil do GitLab
+        </Button>
+      </div>
+    </Element>
   );
 };
 

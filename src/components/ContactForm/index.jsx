@@ -4,6 +4,7 @@ import { IoMdClose } from 'react-icons/io';
 import ReCAPTCHA from 'react-google-recaptcha';
 import Typography from '../Typography';
 import Button from '../Button';
+import { Element } from 'react-scroll';
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_KEY);
@@ -34,9 +35,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div
+    <Element
       className='grid md:grid-cols-2 mt-10 md:mt-20 gap-10 bg-zinc-700 text-textWhite p-10'
-      id='contact'
+      name='contact'
     >
       <div className='flex flex-col justify-center items-center gap-10'>
         <Typography variant='h1'>Contato</Typography>
@@ -112,7 +113,7 @@ const ContactForm = () => {
           Enviar
         </Button>
       </form>
-    </div>
+    </Element>
   );
 };
 
