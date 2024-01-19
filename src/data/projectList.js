@@ -23,7 +23,25 @@ export const projectList = [
     codeLink: 'https://gitlab.com/ufv-projects/hackathon-2023',
     demoLink: null,
     description:
-      'Site de correção de provas por marcação, 2º lugar na hackathon 2023 de visão computacional pela Pix Force. Gera relatório de acertos e erros em uma plataforma que faz o gerenciamento de notas.',
+      'Site de correção de provas por marcação, 2º lugar na hackathon 2023 de visão computacional pela Pix Force. Gera relatório de acertos e erros em uma plataforma para o professor.',
     tags: ['Flask', 'Tailwindcss', 'OpenCV', 'Numpy'],
   },
+  {
+    id: 4,
+    title: 'Video Vault',
+    codeLink: 'https://gitlab.com/olooeez/video-vault',
+    demoLink: null,
+    description:
+      'REST API de uma plataforma para armazenar e gerenciar seus videos favoritos, com autenticação e autorização.',
+    tags: ['Golang', 'Gin', 'Gorm', 'PostgreSQL']
+  },
+  {
+    id: 5,
+    title: 'Eventando',
+    codeLink: 'https://gitlab.com/ufv-projects/eventando',
+    demoLink: null,
+    description:
+      'Plataforma para gerenciar, criar, participar e avaliar eventos da comunidade, com autenticação e autorização.',
+    tags: ['PHP', 'MySQL', 'Bootstrap']
+  }
 ]
