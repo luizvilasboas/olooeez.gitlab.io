@@ -11,7 +11,7 @@ import { Element } from 'react-scroll';
 const Projects = () => {
   return (
     <Element name='projects'>
-      <div className='text-textBlack mt-10 md:mt-20 flex flex-col items-start text-center mx-10'>
+      <div className='text-textBlack mt-10 md:mt-20 flex flex-col items-center md:items-start lg:items-start mx-10'>
         <Typography variant='h1' className='mb-5'>
           Projetos
         </Typography>
@@ -64,9 +64,9 @@ const Projects = () => {
           </div>
         ))}
       </section>
-      <div className='w-full flex items-center justify-center  mt-20'>
-        <Button className='max-w-lg' onClick={() => window.open('https://gitlab.com/olooeez', '_blank')}>
-          Mais projetos no meu perfil do GitLab
+      <div className='w-full flex items-center justify-center mt-10 md:mt-20'>
+        <Button className='max-w-xs md:max-w-lg lg:max-w-lg' onClick={() => window.open('https://gitlab.com/olooeez', '_blank')}>
+          Mais projetos no meu GitLab
         </Button>
       </div>
     </Element>
