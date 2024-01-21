@@ -33,7 +33,7 @@ export const projectList = [
     demoLink: null,
     description:
       'REST API de uma plataforma para armazenar e gerenciar seus videos favoritos, com autenticação e autorização.',
-    tags: ['Golang', 'Gin', 'Gorm', 'PostgreSQL']
+    tags: ['Go', 'Gin', 'Gorm', 'PostgreSQL']
   },
   {
     id: 5,

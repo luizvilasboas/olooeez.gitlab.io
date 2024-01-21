@@ -1,7 +1,7 @@
 export const skillList = [
   {
     title: 'Linguagens de Programação',
-    skills: ['C', 'C++', 'Python', 'Javascript', 'PHP', 'Go'],
+    skills: ['C', 'C++', 'Python', 'JavaScript', 'PHP', 'Go'],
   },
   {
     title: 'Frameworks',
