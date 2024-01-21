@@ -105,7 +105,7 @@ const ContactForm = () => {
             errors={state.errors}
           />
         </div>
-        <ReCAPTCHA className='mb-4' sitekey={process.env.REACT_APP_SITE_KEY} />
+        <ReCAPTCHA className='mb-4' sitekey={process.env.REACT_APP_RECAPTCHA_KEY} />
         <Button
           type='submit'
           disabled={state.submitting}
