@@ -43,5 +43,14 @@ export const projectList = [
     description:
       'Plataforma para gerenciar, criar, participar e avaliar eventos da comunidade, com autenticação e autorização.',
     tags: ['PHP', 'MySQL', 'Bootstrap']
+  },
+  {
+    id: 6,
+    title: 'blink-sleep-detection',
+    codeLink: 'https://gitlab.com/olooeez/blink-sleep-detection',
+    demoLink: null,
+    description:
+      'Projeto desenvolvido para identificar a sonolência de uma pessoa. Este projeto monitora e reconhecer sinais de sonolência em tempo real.',
+    tags: ['OpenCV', 'Numpy', 'Mediapipe']
   }
 ]
