@@ -5,7 +5,7 @@ export const skillList = [
   },
   {
     title: 'Frameworks',
-    skills: ['React', 'Symfony', 'Laravel', 'Gin', 'Flask'],
+    skills: ['React', 'Symfony', 'Laravel', 'Gin', 'Flask', 'OpenCV', 'Numpy'],
   },
   {
     title: 'Banco de dados',
