@@ -1,56 +1,68 @@
 # olooeez.gitlab.io
 
-My personal website (developer portofolio) made in React with Tailwindcss.
+> My personal portfolio website, built with React and Tailwind CSS.
 
-## Demo
+## About the Project
+
+This is my personal portfolio website, created to serve as a central hub for my work and professional information. It's designed to be clean, fast, and fully responsive.
+
+A live demo is available at: **[olooeez.gitlab.io](https://olooeez.gitlab.io)**
 
 ![Demo of olooeez.gitlab.io](https://gitlab.com/olooeez/olooeez.gitlab.io/-/raw/main/img/demo.png)
 
-You can find the website live by clicking [here](https://olooeez.gitlab.io).
+## Tech Stack
 
-## Prerequisites
+The main technologies and libraries used in this project are:
 
-Before getting started, make sure you have the following requirements installed on your machine:
+*   [React](https://react.dev/)
+*   [Tailwind CSS](https://tailwindcss.com/)
 
-1. **Node.js**: Node.js is a platform that allows the execution of JavaScript code on the server. You can download Node.js from the [official website](https://nodejs.org/) and follow the installation instructions for your operating system.
+## Usage
 
-2. **NPM**: NPM is the package manager for Node.js. It is installed along with Node.js and is necessary for installing project dependencies.
+Below are the instructions for you to set up and run the project locally.
 
-## Installation and Development
+### Prerequisites
 
-### Step 1: Clone the repository
+You need to have the following software installed to run this project:
 
-Clone this repository to your desired folder on your machine:
+*   [Node.js](https://nodejs.org/) (which includes npm)
 
-```
-git clone https://gitlab.com/olooeez/olooeez.gitlab.io.git
-```
+### Installation and Setup
 
-### Step 2: Install dependencies
+Follow the steps below:
 
-Navigate to the project directory and install the dependencies using NPM:
+1.  **Clone the repository**
+    ```bash
+    git clone https://gitlab.com/olooeez/olooeez.gitlab.io.git
+    ```
 
-```
-cd olooeez.gitlab.io
-npm install
-```
+2.  **Navigate to the project directory**
+    ```bash
+    cd olooeez.gitlab.io
+    ```
 
-### Step 3: Run the application
+3.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-Start the application locally with the following command:
+4.  **Configure environment variables**
+    Create a `.env` file in the project root (you can copy `.env.sample` as a template) and add any necessary environment variables.
 
-```
+### Workflow
+
+To run the development server, execute the following command:
+```bash
 npm run start
 ```
-
-The application will be available in your browser at [localhost:3000](http://localhost:3000).
-
-**OBS**: Create and edit the `.env` file. You can find a sample by clicking [here](https://gitlab.com/olooeez/olooeez.gitlab.io/-/raw/main/.env.sample).
+The application will be available in your browser at `http://localhost:3000`.
 
 ## Contributing
 
-If you wish to contribute to this project, feel free to open a merge request. We welcome all forms of contribution!
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](https://gitlab.com/olooeez/olooeez.gitlab.io/-/blob/main/LICENSE). Refer to the LICENSE file for more details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
